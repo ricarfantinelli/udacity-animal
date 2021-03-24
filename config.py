@@ -7,7 +7,7 @@ class Config(object):
     SQL_SERVER = os.environ.get('SQL_SERVER') or 'udacity-ricfanta.database.windows.net'
     SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'udacity-ricfanta-db'
     SQL_USER_NAME = os.environ.get('SQL_USER_NAME') or 'udacityadmin'
-    SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or 'p@ssword1234'
+    SQL_PASSWORD = os.environ.get('SQL_PASSWORD') or 'xxxxxx'
     SQLALCHEMY_DATABASE_URI = 'mssql+pyodbc://' + SQL_USER_NAME + '@' + SQL_SERVER + ':' + SQL_PASSWORD + '@' + SQL_SERVER + ':1433/' + SQL_DATABASE + '?driver=ODBC+Driver+17+for+SQL+Server'
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 #
